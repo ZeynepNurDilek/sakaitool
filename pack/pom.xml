@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+    <artifactId>cmk</artifactId>
+    <groupId>org.sakaiproject</groupId>
+    <version>1.0</version>
+  </parent>
+	
+	<name>cmk - Components</name>
+	<groupId>org.sakaiproject</groupId>
+	<artifactId>cmk-pack</artifactId>
+
+	<packaging>sakai-component</packaging>
+
+	<properties>
+    	<deploy.target>components</deploy.target>
+  	</properties>
+  	
+  	<dependencies>
+
+        <!-- internal dependencies -->
+        <dependency>
+            <groupId>org.sakaiproject</groupId>
+		<artifactId>cmk-impl</artifactId>
+        </dependency>
+
+    </dependencies>
+
+    <build />
+
+
+</project>
